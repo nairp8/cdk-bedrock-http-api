@@ -1,29 +1,16 @@
-# dependencies
 node_modules/
-
-# CDK synth output
 cdk.out/
 .cdk.staging/
 
-# TypeScript build output (compiled JS)
 lib/**/*.js
-lib/**/*.js.map
 bin/**/*.js
-bin/**/*.js.map
+**/*.js
+**/*.d.ts
 
-# tests & coverage
 coverage/
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# env files / secrets
 .env
 .env.*
 
-# OS / editor
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
